@@ -1,1 +1,8 @@
 /* Feuille de style de la page « Le poids caché du web » */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(7, 7, 71);
+    background:linear-gradient(to bottom,rgb(255, 230, 204), rgb(212, 179, 138));
+    
+    lineheight: 1.5;
+}
