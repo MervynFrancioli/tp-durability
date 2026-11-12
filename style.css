@@ -37,4 +37,22 @@ h1 {
 
 .p {
     text-align: justify;
+
+}
+
+.dark-theme {
+    
+    background:linear-gradient(to bottom,rgb(18, 58, 110), rgb(0, 9, 21));
+    
+    color: rgb(255, 255, 255);
+
+    .bulle {
+        background-color: rgb(4, 0, 21);
+    }
+    .bulle::before {
+        background-color: rgb(53, 5, 88);
+    }
+    h1 {
+        color: rgb(163, 143, 180);
+    }
 }
