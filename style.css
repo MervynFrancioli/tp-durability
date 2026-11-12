@@ -39,6 +39,19 @@ h1 {
     text-align: justify;
 
 }
+.outils {
+ position: fixed;
+top: 12px;
+right: 12px;
+display: flex;
+flex-direction: column;
+gap: 6px;
+padding: 10px;
+background-color: white;
+border-radius: 8px;
+
+}
+
 
 .dark-theme {
     
@@ -55,4 +68,6 @@ h1 {
     h1 {
         color: rgb(163, 143, 180);
     }
+
+
 }

@@ -1,6 +1,9 @@
 
 console.log("Script chargé !");
 
-document.getElementById("theme-toggle").addEventListener("click", function() {
-  document.body.classList.toggle("dark-theme");
-});
+
+const boutonTheme = document.querySelector("#bouton-theme");
+boutonTheme.addEventListener("click", function() { document.body.classList.toggle("dark-theme"); });
+
+
+
