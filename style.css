@@ -4,5 +4,37 @@ body {
     color:rgb(7, 7, 71);
     background:linear-gradient(to bottom,rgb(255, 230, 204), rgb(212, 179, 138));
     
-    lineheight: 1.5;
+
+    max-width: 800px;
+    margin: auto;
+    padding: initial;
+
+}
+h1 {
+    color: rgb(14, 0, 72);
+}
+
+.bulle {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px 0;
+    
+}
+
+.bulle::before {
+    content: "";
+    width: 90%;
+    height: 35px;
+    position: absolute;
+    top: -15px;
+    left: 6%;
+    background-color: rgb(255, 146, 146);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.p {
+    text-align: justify;
 }
