@@ -9,9 +9,12 @@ body {
     margin: auto;
     padding: initial;
 
+
+    font-size: 100%;
 }
 h1 {
     color: rgb(14, 0, 72);
+    font-size: 2em;
 }
 
 .bulle {
@@ -37,6 +40,7 @@ h1 {
 
 .p {
     text-align: justify;
+    font-size: 1em;
 
 }
 .outils {
@@ -57,7 +61,7 @@ border-radius: 8px;
     
     background:linear-gradient(to bottom,rgb(18, 58, 110), rgb(0, 9, 21));
     
-    color: rgb(255, 255, 255);
+    color: rgb(255, 241, 241);
 
     .bulle {
         background-color: rgb(4, 0, 21);
@@ -69,5 +73,13 @@ border-radius: 8px;
         color: rgb(163, 143, 180);
     }
 
+    input[type="range"] {
+    accent-color: rgb(130, 84, 171);
+}
 
+}
+
+input[type="range"] {
+    accent-color: #db6464;
+    cursor: pointer;
 }
