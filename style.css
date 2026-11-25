@@ -102,3 +102,27 @@ input[type="range"] {
 .dark-theme #salutation {
     color: rgb(163, 143, 180);
 }
+
+#pages-par-jour {
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+#bouton-calculer {
+    background-color: #db6464;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#resultat {
+    font-weight: bold;
+}
+
+.dark-theme #bouton-calculer {
+    background-color: rgb(130, 84, 171);
+}
